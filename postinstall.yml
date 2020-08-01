@@ -8,7 +8,7 @@
   # We can include or exclude them at playbook run time based on tags.
   - role: postinstall-general
   - role: packages
-  - role: docker
-  - role: gnome-desktop
+  #- role: docker
+  #- role: gnome-desktop
   - role: users
 ...
